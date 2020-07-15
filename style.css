@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+body {
+margin: 0;
+color: #555;
+font-family: 'Montserrat', sans-serif;
+}
+#content {
+background: linear-gradient(white, aliceBlue, mistyRose, linen, bisque, burlywood);
+}
+#about-pic {
+border-radius: 100px;
+border: solid 7px aliceBlue;
+margin: 100px 0 70 0px;
+filter: contrast(175%) grayscale(20%) brightness(120%) saturate(40%);
+}
+.about-content {
+text-align: center;
+}
+button {
+border: solid 2px black;
+border-radius: 15px;
+margin: 15px 0 40px 0;
+padding: 7px;
+background-color: burlywood;
+}
+button:hover {
+color: aliceBlue;
+}
+#header {
+border-bottom: solid 5px black;
+background: linear-gradient(-45deg, white, lightGray, slateGray, gray);
+height: 150px;
+line-height: 150px;
+}
+.post-title {
+margin: 20px 0 45px 0;
+}
+.post, .about {
+max-width: 800px;
+margin: 0 auto;
+padding: 60px 0;
+}
+.post-author img {
+width: 60px;
+height: 75px;
+vertical-align: middle;
+border-radius: 30px;
+filter: contrast(175%) grayscale(20%) brightness(120%) saturate(40%);
+}
+.post-author span {
+margin-left: 16px;
+}
+.post-date {
+color: #D2D2D2;
+font-size: 14px;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+}
+a {
+color: #1abc9c;
+font-weight: lighter;
+text-decoration: none;
+}
+a:hover {
+color: #F6A623;
+}
+p {
+line-height: 1.5;
+}
+h1 {
+margin: 100px 0 100px 0;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+}
+#header-title {
+display: block;
+float: left;
+font-size: 20px;
+font-weight: bold;
+}
+#header a {
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+}
+#header a:hover{
+color: #222;
+}
+#header-nav {
+display: block;
+float: right;
+margin-top: 0;
+}
+#header-nav li {
+display: inline;
+padding-left: 20px;
+}
+.container {
+max-width: 1000px;
+margin: 0 auto;
+}
+#footer {
+background: linear-gradient(#2f2f2f, slateGray, gray);
+padding: 50px 0;
+border-top: solid 5px black;
+}
+.column {
+min-width: 300px;
+display: inline-block;
+vertical-align: top;
+}
+#footer h4 {
+color: white;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+}
+#footer p {
+color: white;
+}
